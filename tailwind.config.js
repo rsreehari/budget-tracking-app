@@ -3,6 +3,9 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Poppins', 'ui-sans-serif', 'system-ui'],
+      },
       colors: {
         primary: {
           50: '#eff6ff',
@@ -35,6 +38,11 @@ export default {
           700: '#334155',
           800: '#1e293b',
           900: '#0f172a',
+        },
+        brand: {
+          purple: '#7C3AED',
+          lime: '#A3E635',
+          bg: '#F8FAF5',
         },
       },
     },
