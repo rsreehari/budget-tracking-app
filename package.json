@@ -1,12 +1,9 @@
 {
   "name": "budget-tracking-app",
   "version": "0.0.0",
-  "homepage": "https://Acodehacked.github.io/budget-tracking-app",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
